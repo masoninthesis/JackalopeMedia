@@ -1,0 +1,476 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Designed by Jackalope</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta charset="utf-8">
+  <meta name="description" content="Jackalope Media – Web Design, Web Development and Branding.">
+
+  <!-- Load bootstrap -->
+  <link href="css/bootstrap.css" rel="stylesheet" media="screen">
+
+  <!-- Load pixels -->
+  <link href="css/the-story.css" rel="stylesheet" media="screen">
+
+  <!-- Favicon -->
+  <link rel="shortcut icon" href="img/JackalopeFavicon.ico">
+
+  <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
+  <!--[if lt IE 9]>
+      <script src="/js/html5shiv.js"></script>
+      <script src="/js/respond.min.js"></script>
+      <![endif]-->
+
+	<!-- Log My Calls -->
+
+	<script defer src="http://app.logmycalls.com/js/DNI/dni.js" > </script>
+	<script type="text/javascript">
+	function dniLoadingTimer() { 
+		if (typeof getDNIRecord == "function") { 
+			getDNIRecord("eb76c4a54e67598df815abe79dda4b97", "app.logmycalls.com");
+		} else { 
+			setTimeout(dniLoadingTimer, 100); 
+		} 
+	} 
+	setTimeout(dniLoadingTimer, 100); 
+	</script>
+
+	<!-- Google Analytics -->
+
+		<script>
+		  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+		  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+		  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+		  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+		  ga('create', 'UA-45237355-1', 'jackalopemedia.com');
+		  ga('send', 'pageview');
+
+		</script>
+</head>
+
+<!-- activate scrollspy -->
+
+<!-- ><body id="top" data-spy="scroll" data-target=".navbar" data-offset="50">
+  <nav class="navbar navbar-default navbar-fixed-top" role="navigation">
+    <div class="navbar-container">
+      <div class="navbar-header">
+        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-ex1-collapse">
+          <span class="sr-only">Toggle navigation</span>
+          <i class="icon-reorder"></i>
+        </button>
+        <a class="navbar-brand" href="#"><img src="img/jackalope_left.png" width="30" height="30" alt="Jackalope Left"></a> 
+      </div>
+      <div id="nav-collapse" class="collapse navbar-collapse navbar-ex1-collapse">
+        <ul class="nav navbar-nav navbar-right">
+          <li class="active"><a title="Home page" class="scroll" href="#home">Home</a></li>
+          <li><a title="Check out our awesome services" href="#features" class=" scroll">Features</a></li>
+          <li><a title="Themes assets" href="#assets" class="scroll">Assets</a></li>
+          <li><a title="Who we are" href="#about" class="scroll"> About us</a></li>
+          <li><a title="Get in touch!" href="#contact" class="scroll"><font color="#C54946">Contact</font></a></li>
+          <li><a title="External page sample" href="sample-page.html">Sample Page</a></li>
+        </ul>
+      </div>
+    </div>
+  </nav> -->
+
+  <!-- Home Page -->
+  <div id="home-benefits" class="page jackalope">
+    <div class="inner-page-benefits">
+
+  <style>
+	h2.jackhead {
+		text-align:left;
+		font-family: "BebasNeue";
+		font-size: 72px;
+		line-height: 65px;
+	}
+	@media (max-width: 1024px) {
+		h2.jackhead {
+		  text-align:center;
+		}
+	}
+	@media (max-width: 768px) {
+		h2.jackhead {
+		  text-align:center;	
+		}
+	}
+	@media (max-width: 420px) {
+		h2.jackhead {
+		  text-align:center;
+		}	
+	}
+  .addheight {
+    line-height: 15px;
+  }
+	</style>
+
+      <h2 class="page-headline large jackhead">If you want a brand your customers will love, <font color="#C54946">pick us.</font>
+	</h2>
+    </div>
+    <div class="row inner-page">
+      <div class="col-md-4 col-md-push-8">
+	<div class="lead-form">
+	<p class="lead-text">
+				Get a Site that <font color="#C54946">WORKS</font> FOR YOU.
+	</p>
+	<div class="lead-bg messages">
+	<p class="lead-subtext">
+		Fill out the form below and we'll shoot you a call.
+	</p>
+        <form id="contact" action="mailer.php" method="POST">
+          <input type="text" class="form-control" id="inputName" name="inputName" placeholder="Your Name">
+          <input type="text" class="form-control" id="inputEmail" name="inputEmail" placeholder="Your Email">
+          <input type="text" class="form-control" id="inputMesssage" name="inputMessage" placeholder="Your Phone">
+          <input type="submit" class="btn-contact"><br />Request Quote
+        </form>
+	</div>
+	<p class="call">OR CALL US: <b><span class="lmc_track">801-907-0643</span></b></p>
+	</div>
+        <br />
+        <!-- <a href="#features" title="Check out more freatures!" class="scroll btn btn-jackalope btn-centered"><i class="icon-caret-down"></i> Learn more</a> -->
+		<!-- ><a href="#features" title="Check out more freatures!" class="scroll btn-jackalope btn-centered"><i class="icon-caret-down"></i> Learn more</a> -->
+      </div>
+	<div class="col-md-8 col-md-pull-4 lazy-container">
+        <img class="lazy" alt="Looks great on every device" src="img/pixel.png" data-original="img/HomeImage1.jpg" />
+      </div>
+    </div>
+  </div> <!-- /#home -->
+
+  <!-- Sign up -->
+  <div class="sign-up color-jack visible-lg black-outline">
+    <div class="row inner-page">
+      <div class="col-md-12">
+
+	<style>
+ 	h4.blog-text {
+		text-align: left;
+		font-size: 22px;
+	}
+	a.testimonial {
+		color: #fff;
+	}
+	a.testimonial:hover {
+		color: #fff;
+		text-decoration: underline;
+	}
+	</style>
+
+        <h4 class="blog-text">"Jackalope is the only company I trust with my brand. You're in great hands with Mike and Mason."<br /> - <b>Billy Murphy</b>, foreverjobless.com</h4>
+        <!-- <a href="#features" class="scroll btn btn-primary pull-right" title="Check out more freatures!"><i class="icon-caret-down"></i> Scroll down</a> -->
+      </div>
+    </div>
+  </div> <!-- /.sign-up -->
+
+  <!-- Feature page-->
+  <div id="single-page" class="page color-4">
+    <div class="inner-page">
+      <h2 class="jackhead">Branding.</h2>
+    </div>
+
+    <div class="row inner-page bump-up">
+      <div class="col-md-6 lazy-container">
+        <img class="figurette lazy" src="img/pixel.png" data-original="img/LandingPageAnatomy.jpg" alt="LandingPageAnatomy" />
+      </div>
+      <div class="col-md-6">
+        <h3>All artwork included</h3>
+        <p class="lead">Research shows that too many choices can paralyze a customer. In a Jackalope website, there is no confusion – each page is built from the ground up to do exactly what you want it to do, and only that.</p>
+        <ul class="list-wide">
+          <li><font class="numbers">1)</font> An eye-grabbing headline.</li>
+          <li><font class="numbers">2)</font> An image or video.</li>
+          <li><font class="numbers">3)</font> Clear benefits – what's in it for the customer.</li>
+          <li><font class="numbers">4)</font> Call-to-action.</li>
+		  <li><font class="numbers">5)</font> The "fold". We place the most important elements above the fold.</li>
+		  <li><font class="numbers">6)</font> A small number of essential navigation links.</li>
+		  <li><font class="numbers">7)</font> Straight-to-the-Point explanation of your product or service.</li>
+		  <li><font class="numbers">8)</font> Testimonials from your satisfied customers.</li>
+		<i>source: quicksprout.com.</i>
+        </ul>
+      </div>
+    </div>
+
+    <hr>
+	<div id="fast" class="page color-4">
+	    <div class="inner-page">
+	      <h2 class="jackhead">Logos.</h2>
+	    </div>
+	<style>
+	.left-image {
+		margin-left: -60px;
+	}
+	@media (max-width: 1024px) {
+	.left-image {
+		  margin-left: 0px;
+		}
+	}
+	@media (max-width: 768px) {
+	.left-image {
+		  margin-left: 0px;	
+		}
+	}
+	@media (max-width: 420px) {
+	.left-image {
+		  margin-left: 0px;
+		}	
+	}
+	</style>
+	<div class="row inner-page bump-up">
+      <div class="col-md-12">
+        <!-- <h3>All artwork included</h3> -->
+        <p class="lead">In under 5 seconds your customer has made a snap judgment about your company, <b>what do you want that to be?</b></p>
+        <img class="logos-image figurette lazy" src="img/pixel.png" data-original="img/Logos1.0.jpg" alt="Site Speed">
+      </div>
+    </div>
+
+<hr>
+
+<div id="seo" class="page color-4">
+    <div class="inner-page">
+      <h2 class="jackhead">Business Cards.</h2>
+    </div>
+
+    <div class="row inner-page bump-up">
+      <div class="col-md-6">
+       <!-- <h3>All artwork included</h3> -->
+        <p class="lead">Because it's easy to cross someone's mind when<br> they're carying your name in their wallet.
+		</p>
+        <!-- <ul class="list-wide">
+          <li><font class="numbers">1)</font> An eye-grabbing headline.</li>
+          <li><font class="numbers">2)</font> An image or video.</li>
+          <li><font class="numbers">3)</font> Clear benefits – what's in it for the customer.</li>
+          <li><font class="numbers">4)</font> Call-to-action.</li>
+		  <li><font class="numbers">5)</font> The "fold". We place the most important elements above the fold.</li>
+		  <li><font class="numbers">6)</font> A small number of essential navigation links.</li>
+		  <li><font class="numbers">7)</font> Straight-to-the-Point explanation of your product or service.</li>
+		  <li><font class="numbers">8)</font> Testimonials from your satisfied customers.</li>
+        </ul> -->
+      </div>
+	<div class="col-md-6 lazy-container">
+		<style>
+		.jack-bump {
+			margin-top: -15px;
+		}
+		</style>
+        <img class="figurette lazy jack-bump" src="img/pixel.png" data-original="img/bizcards.jpg" alt="LandingPageAnatomy" />
+      </div>
+    </div>
+
+    <!-- Video -->
+    <!-- ><div class="row inner-page">
+      <div class="col-md-6 col-md-push-6">
+        <div class="btn-container figurette">
+          <img src="img/video.png" alt="Play video" />
+          <a class="lightbox iframe btn-play" target="_blank" href="http://vimeo.com/61693087"><i class="icon-play"></i></a>
+        </div>
+      </div>
+      <div class="col-md-6 col-md-pull-6">
+        <ul class="big-list">
+          <li><i class="icon-ok"></i> Always latest bootstrap</li>
+          <li><i class="icon-play"></i> Responsive video</li>
+          <li><i class="icon-resize-full"></i> Adaptive, smart lightbox</li>
+          <li><i class="icon-desktop"></i> All modern browsers supported</li>
+        </ul>
+        <br />
+        <a href="#assets" class="scroll btn btn-primary btn-centered"><i class="icon-caret-down"></i> Even more features</a>
+      </div>
+    </div>
+  </div> --> <!-- /#features -->
+
+  <!-- Assets page -->
+  <!-- <div id="assets" class="page color-3">
+    <div class="inner-page">
+      <h2 class="page-headline">Page assets</h2>
+    </div> -->
+
+    <!-- Vectors -->
+    <!-- <div class="row inner-page">
+      <div class="col-md-6 lazy-container">
+        <img class="figurette lazy" alt="Original vectors" src="img/pixel.png" data-original="img/responsive-vectors.png" />
+      </div>
+      <div class="col-md-6">
+        <h3>5 vectors included</h3>
+        <p class="lead">Zombie ipsum
+          <abbr title="HyperText Markup Language" class="initialism">HTML</abbr>reversus ab viral inferno, nam rick grimes malum cerebro. De carne lumbering animata corpora quaeirtis.</p>
+        <p>The voodoo sacerdos flesh eater, suscitat mortuos comedere carnem virus. Zonbi tattered for solum oculi eorum defunctis go lum cerebro..</p>
+      </div>
+    </div> --> <!-- /vectors -->
+
+    <!-- Clients -->
+    <div class="color-jack black-outline">
+      <div class="inner-page">
+        <h2 class="page-headline">Use us for:</h2>
+      </div>
+      <div class="inner-page row">
+        <ul class="uses list-inline">
+          <li>Infographics</li>
+          <li>Advertisements</li>
+          <li>Banners</li>
+          <li>Brochures</li>
+        </ul> 
+      </div>
+    </div>
+  </div> <!-- /#assets -->
+
+  <!-- About page -->
+  <!-- <div id="about" class="page color-4">
+    <div class="inner-page">
+      <h2 class="page-headline">Who are we and how it all got started. Our story.</h2>
+    </div>
+    <div class="row inner-page">
+      <div class="col-md-6  lazy-container">
+        <img class="figurette lazy" src="img/pixel.png" data-original="img/green-office.png" alt="Our workspace" />
+      </div>
+      <div class="col-md-6">
+        <h3>Zonbi tattered for solum.</h3>
+        <p class="lead">The voodoo sacerdos flesh eater, suscitat mortuos comedere carnem virus. Zonbi tattered for solum oculi eorum defunctis go lum cerebro.</p>
+        <p>Zombie ipsum reversus ab viral inferno, nam rick grimes malum cerebro. De carne lumbering animata corpora quaeritis. Summus brains sit​​, morbo vel maleficia? De apocalypsi gorger omero undead survivor dictum mauris. Hi mindless mortuis soulless creaturas, imo evil stalking monstra adventus resi dentevil vultus comedat cerebella viventium.</p>
+      </div>
+    </div>
+
+    <hr> -->
+
+    <!-- Team -->
+    <div id="about" class="row inner-page team">
+	<h2 class="page-headline jackhead">Who We Are.</h2>
+      <div class="col-md-6 bump-down">
+	<style>
+	.bump-down {
+		margin-top: 35px;
+	}
+	</style>
+        <img class="pull-left" src="img/mike.png" alt="A cookie" />
+        <h4>Michael Collins</h4>
+        <p>I view art as the combination of a beautiful design and a clear functionality. We aim to only produce works of art.</p>
+        <ul>
+
+          <!-- <li class="social">
+            <a href="#about"><i class="icon-facebook-sign"></i></a>
+            <a href="#about"><i class="icon-twitter"></i></a>
+            <a href="#about"><i class="icon-github-sign"></i></a>
+          </li> -->
+        </ul>
+      </div>
+      <div class="col-md-6 team2 bump-down">
+        <img class="pull-left" src="img/MasonL.jpg" alt="A cookie" />
+        <h4>Mason Lawlor</h4>
+        <p>A great user experience bridges the gap between reality and the web, a seamless interaction between value and you.</p>
+        <ul>
+        </ul>
+      </div>
+    </div>
+  </div> <!-- /#about -->
+
+  <!-- Contact page -->
+  <div id="contact" class="page color-jack black-outline">
+    <div class="inner-page">
+      <h2 class="jackhead"><font color="#fff">Get in touch.</font></h2>
+    </div>
+    <div class="row inner-page contact">
+      <div class="col-md-6">
+        <h3><font color="#fff">Tell us more about your project.</font></h3>
+        <form id="contact" action="mailer.php" method="POST">
+    <input type="text" class="form-control" id="inputName" name="inputName" placeholder="Your Name">
+    <input type="text" class="form-control" id="inputEmail" name="inputEmail" placeholder="Your Email">
+          <textarea class="form-control" rows="4" id="inputMessage" name="inputMessage" placeholder="Your message..."></textarea>
+          <input type="submit" class="btn-contact"><br />Contact us
+        </form>
+      </div>
+      <div class="col-md-6">
+        <div class="vertical-line to-the-right">
+	<center>
+		<img src="img/jackalope_white.png">
+	</center>
+	<p class="large-number"><span class="lmc_track">801-907-0643</span></p>	
+	hello@jackalopemedia.com
+	<br />
+4111 Medical Parkway, Austin, TX
+	</div>
+      </div>
+    </div>
+  </div> <!-- /#contact -->
+
+  <!-- Newsletter -->
+  <!-- <div class="newsletter color-1">
+    <div class="inner-page row">
+      <div class="col-md-4">
+        <h4>
+          <strong>Be cool</strong>, subscribe to get our latest news</h4>
+      </div>
+      <div class="col-md-6">
+        <input type="email" placeholder="your@e-mail.com" name="EMAIL" class="subscribe">
+      </div>
+      <div class="col-md-2">
+        <button type="submit" class="btn btn-primary pull-right btn-block">Subscribe</button>
+      </div>
+    </div>
+  </div> --> <!-- /newsletter -->
+
+  <!-- The footer, social media icons, and copyright -->
+  <footer class="page jack-footer">
+    <div class="inner-page row">
+      <div class="col-md-6 social">
+        <!--<a href="#contact"><i class="icon-twitter"></i></a>
+        <a href="#contact"><i class="icon-github-sign"></i></a> 
+        <a href="#contact"><i class="icon-facebook-sign"></i></a>
+        <a href="#contact"><i class="icon-google-plus-sign"></i></a>-->
+<style>
+.jackalope-footer {
+	margin-top: 9px;
+}
+</style>
+<img src="img/jackalope_left.png" width="30" height="30" alt="Jackalope Left" class="jackalope-footer">
+      </div>
+      <div class="col-md-6 text-right copyright">
+        &copy; 2013 Jackalope | all rights reserved | <a href="#top" title="Got to top" class="scroll"><font color="#C54946">To top <i class="icon-caret-up"></i></font></a>
+      </div>
+    </div>
+  </footer>
+<script src="//ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js">
+	
+</script>
+<script>
+  if (typeof jQuery == 'undefined') {
+    document.write(unescape("%3Cscript src='js/jquery-1.9.1.min.js' type='text/javascript'%3E%3C/script%3E"));
+  }
+</script>
+
+  <!-- Minimize in production. -->
+
+  <script src="js/bootstrap.min.js"></script>
+ 
+ 
+ 
+  <!-- Contact Form -->
+
+  <script src="js/additional-methods.min.js"></script>
+  <script src="js/jquery.validate.min.js"></script>
+
+  <script src="js/contact.js"></script>
+
+  <!-- Main js fail. -->
+  <script src="js/main.min.js"></script>
+
+  <!-- Google Analytics -->
+
+<script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-45237355-1', 'jackalopemedia.com');
+  ga('send', 'pageview');
+
+</script>
+
+  <script>
+  // History, and back button
+  $(function() {
+    jQuery.history.listen()
+    $('.nav .scroll').click(function() {
+      $.history.push('index.html' + $(this).attr('href'));
+    });
+  });
+  </script>
+</body>
+</html>

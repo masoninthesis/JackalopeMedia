@@ -1,0 +1,2 @@
+[31-Oct-2013 16:07:07 America/New_York] PHP Fatal error:  require_once() [<a href='function.require'>function.require</a>]: Failed opening required './swiftmailer/swift_required.php' (include_path='.:/usr/lib/php:/usr/local/lib/php') in /home/jackuksf/public_html/contact.php on line 14
+[31-Oct-2013 19:26:00 America/New_York] PHP Fatal error:  require_once() [<a href='function.require'>function.require</a>]: Failed opening required './swiftmailer/swift_required.php' (include_path='.:/usr/lib/php:/usr/local/lib/php') in /home/jackuksf/public_html/contact.php on line 14
