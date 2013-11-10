@@ -1582,6 +1582,9 @@ footer a {
 .figurette {
   margin-top: 30px;
 }
+.contact-spacing {
+	padding-top: 40px;
+}
 .lazy-container {
   text-align: center;
   min-height: 400px;
