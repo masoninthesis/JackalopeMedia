@@ -2634,7 +2634,7 @@ img.mfp-img {
 }
 
 .lead-form {
-  margin-top: -55px;
+  margin-top: 5px;
 }
 
 .sprite {
@@ -2736,3 +2736,4 @@ ul.sprite li.converts2 {
   height: 55px;
   font-size: 34px;
 }
+
