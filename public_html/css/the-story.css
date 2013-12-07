@@ -41,17 +41,6 @@
   font-weight: normal;
   font-style: normal;
 }
-@font-face {
-  font-family: 'BebasNeue';
-  src: url('../fonts/bebasneue.eot');
-  src: url('../fonts/bebasneue.eot?#iefix') format('embedded-opentype'), 
-       url('../fonts/bebasneue.woff') format('woff'), 
-       url('../fonts/bebasneue.otf')  format('opentype'), 
-       url('../fonts/bebasneue.ttf') format('truetype'),
-	   url('../fonts/bebasneue.svg#webfontfvFLBU0N') format('svg');
-  font-weight: normal;
-  font-style: normal;	 
-}
 /* FONT AWESOME CORE
  * -------------------------- */
 [class^="icon-"],
@@ -1502,17 +1491,6 @@ a .icon-flip-vertical:before {
 /* -------------------------------------------------- */
 /* Colors. Just add appropriate class
  to your new page.*/
-.jackalope {
-	background: #fff;
-	color: #2f2f2f;
-}
-.color-jack {
-	background: #2f2f2f;
-	color: #fff;
-}
-.jackalope .btn {
-	color:#fff;
-}
 .color-1 {
   background: #4baad3;
   color: #ffffff;
@@ -1562,7 +1540,7 @@ a .icon-flip-vertical:before {
 }
 /* Layout */
 .page {
-  padding-top: 20px;
+  padding-top: 70px;
 }
 .inner-page {
   padding-top: 30px;
@@ -1594,11 +1572,7 @@ footer a {
 /* Home page */
 #home {
   margin-top: 0;
-  padding: 40px 0;
-}
-#home-benefits {
-  margin-top: 0;
-  padding: 0 0;
+  padding: 80px 0;
 }
 /* About page */
 .team img {
@@ -1611,10 +1585,8 @@ footer a {
 .sign-up h4 {
   font-size: 26px;
 }
-/* Footer */
-.copyright {
+/* Footer */.copyright {
   line-height: 50px;
-  color: #000;
 }
 /* Newsletter */
 .newsletter h4 {
@@ -1635,7 +1607,7 @@ footer a {
 /* Navigation */
 /* -------------------------------------------------- */
 .navbar {
-  border-bottom:2px solid #5e5e5e;
+  border: 0;
 }
 .navbar ul {
   font-size: 15px;
@@ -1679,14 +1651,12 @@ footer a {
 }
 /* User Interface */
 /* -------------------------------------------------- */
+a {
+  -webkit-transition: color 0.4s ease-out, background 0.7s ease-in;
+  transition: color 0.4s ease-out, background 0.7s ease-in;
+}
 a:hover {
   text-decoration: none;
-  -webkit-transition: color 0.036s ease-out, background 0.036s ease-in;
-  transition: color 0.036s ease-out, background 0.036s ease-in;
-}
-.navbar-nav li a:hover {
-  -webkit-transition: color 0.0s ease-out, background 0.0s ease-in;
-  transition: color 0.0s ease-out, background 0.0s ease-in;	
 }
 #contact-form textarea,
 #contact-form input {
@@ -1695,23 +1665,8 @@ a:hover {
   margin: 5px 0;
   text-indent: 10px;
 }
-
-/* mike-form */
-
 #contact-form .btn {
   margin-top: 25px;
-  background-color:#2f2f2f;
-  color: #fff;
-  font-family: BebasNeue;
-  font-size: 38px;
-  width: 205px;
-  height: 56px;
-  text-align: center;
-  padding: 0px;
-}
-#contact-form .btn:hover {
-  background-color: #fff;
-  color: #C54946;
 }
 hr {
   width: 50%;
@@ -1735,17 +1690,16 @@ ul {
   text-align: center;
 }
 .clients li {
-  background: #B7292F;
+  background: #3a9ac4;
   width: 220px;
   padding: 15px!important;
   margin-bottom: 10px;
-  -webkit-transition: background 0.2s;
-  transition: background 0.2s;
-  font-size: 24px;
+  -webkit-transition: background 0.6s;
+  transition: background 0.6s;
 }
 .clients li:hover {
   cursor: pointer;
-  background: #404040;
+  background: #235c75;
 }
 /* Feature List */
 .features {
@@ -1842,13 +1796,16 @@ ul {
 .carousel-control.right {
   background-image: none;
 }
+.nudge-left {
+  margin-left: -33px;
+}
 /* Buttons */
 .btn {
   font-weight: 400;
   color: #ffffff;
   border: 0;
-  -webkit-transition: background 0.015s;
-  transition: background 0.015s;
+  -webkit-transition: background 0.6s;
+  transition: background 0.6s;
 }
 .btn-centered {
   width: 50%;
@@ -2126,11 +2083,11 @@ html {
 }
 /* Selection color */
 ::selection {
-  background: #C54946;
+  background: #000000;
   color: #ffffff;
 }
 ::-moz-selection {
-  background: #C54946;
+  background: #000000;
   color: #ffffff;
 }
 /* Useful classes */
@@ -2594,146 +2551,3 @@ img.mfp-img {
 .mfp-fade.mfp-wrap.mfp-removing .mfp-content {
   opacity: 0;
 }
-
-/* random */
-
-.nav > li > a:hover,
-.nav > li > a:focus {
-  color:#C54946;
-  font-weight: 550;
-}
-
-.lead-bg {
-  background-color: #C54946;
-  border: 2px solid #000;
-  padding: 15px;
-  margin-top: -40px;
-}
-
-.lead-text {
-  font-size: 30px;
-  font-weight: 500;
-  text-align: center;
-  font-family: bebasneue;
-  color: #2f2f2f;
-  margin-bottom: 40px;
-}
-
-.lead-subtext {
-  font-size: 18;
-  text-align: left;
-  color: #fff;
-  line-height: 18px;
-}
-
-.inner-page-benefits {
-  padding-top: 30px;
-  padding-bottom: 30px;
-  max-width: 1100px;
-  margin: 0 auto;
-}
-
-.lead-form {
-  margin-top: 5px;
-}
-
-.sprite {
-  background: url('../img/list_sprite.png') no-repeat;
-  height: 35px;
-  background-position: 0 -8px;
-}
-
-ul.sprite li {
-  background: url('../img/list_sprite.png') no-repeat;
-  line-height: 25px;
-}
-
-ul.sprite li.converts {
-  background-position: 0 -5px;
-}
-
-ul.sprite li.converts2 {
-  background-position: 0 -50px;
-}
-
-.numbers {
-  font-size: 19px;
-  color: #C54946;
-  font-weight: 515;
-}
-
-.bump-up {
-	margin-top: -30px;
-}
-
-.jack-footer: {
-	background-color: #fff;
-}
-
-.vertical-line {
-	border: 2px solid #ffffff;
-	padding: 18px;
-	width: 365px;
-}
-
-.to-the-right {
-	margin-left: 115px; /* 55px */
-	margin-top: 115px; /* 78px */
-	font-weight: 500;
-	text-align: center;
-}
-.courtesy {
-	margin-right: 15px;
-}
-/* .call {
-	text-align: ;
-} */
-.black-outline {
-	border-top: 2px solid #2f2f2f;
-	border-bottom: 2px solid #2f2f2f;
-}
-
-.large-number {
-	font-size: 30px;
-}
-
-.uses {
-  text-align: center;
-  font-size: 24px;
-  margin-top: -35px;
-  font-weight: 20px;
-  color: #fff;
-}
-
-.right-text {
-  text-align: right;
-}
-
-.white {
-  color: #fff;
-}
-
-.btn-bottom {
-  background-color: #C54946;
-  border: 2px solid #C54946;
-  color: #fff;
-  font-family: BebasNeue;
-  text-align: center;
-  padding: 5px;
-  width: 200px;
-  height: 55px;
-  font-size: 34px;
-}
-
-.btn-bottom:hover {
-  background-color: #b33835;
-  border: 2px solid #b33835;
-  color: #fff;  /*#C54946*/ 
-  font-family: BebasNeue;
-  text-align: center;
-  padding: 5px;
-  width: 200px;
-  height: 55px;
-  font-size: 34px;
-}
-
